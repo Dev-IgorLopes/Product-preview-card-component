@@ -22,7 +22,7 @@ body{
 }
 
 .grid{
-    max-width: 700px;
+    max-width: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #FFF;
@@ -35,7 +35,7 @@ body{
     display: inherit;
 }
 .card-content{
-    padding: 35px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,13 +43,13 @@ body{
 p.product-catalogo{
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 13px;
+    font-size: 10px;
     color: hsl(228, 12%, 48%);
     font-weight: 500;
 }
 h1.product-name{
     font-family: 'Fraunces', serif;
-    font-size: 34px;
+    font-size: 25px;
     line-height: 1em;
     color: hsl(212, 21%, 14%);
 }
