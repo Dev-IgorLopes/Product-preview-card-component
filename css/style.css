@@ -40,14 +40,14 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-h6.pro-cat{
+p.product-catalogo{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 13px;
     color: hsl(228, 12%, 48%);
     font-weight: 500;
 }
-h2.pro-name{
+h1.product-name{
     font-family: 'Fraunces', serif;
     font-size: 34px;
     line-height: 1em;
@@ -67,12 +67,12 @@ p.current-price{
     font-size: 25px;
     padding-right: 25px;
 }
-p.old-price{
+span.old-price{
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
 }
 
-button.cta{
+button.button-compra{
     background-color: hsl(158, 36%, 37%);
     border: none;
     padding: 14px 0;
@@ -84,10 +84,10 @@ button.cta{
     transition: background-color .3s ease;
     width: 100%;
 }
-button.cta:hover{
+button.button-compra:hover{
     background-color: hsl(158, 36%, 23%);
 }
-button.cta img{
+button.button-compra img{
     padding-right: 7px;
 }
 
@@ -104,7 +104,7 @@ button.cta img{
     .card-content{
         display: block;
     }
-    h6.pro-cat, h2.pro-name, p.pro-des, .price{
+    p.product-catalogo, h1.product-name, p.pro-des, .price{
         padding-bottom: 23px;
 
     }
@@ -120,10 +120,10 @@ button.cta img{
     .card-content{
         padding: 24px;
     }
-    h6.pro-cat, h2.pro-name, p.pro-des, .price{
+    p.product-catalogo, h1.product-name, p.pro-des, .price{
         padding-bottom: 16px;
     }
-    h2.pro-name{
+    h1.product-name{
         font-size: 28px;
     }
     p.pro-des{
@@ -132,7 +132,7 @@ button.cta img{
     p.current-price{
         font-size: 23px;
     }
-    button.cta{
+    button.button-compra{
         padding: 12px 0;
         font-size: 13px;
     }
